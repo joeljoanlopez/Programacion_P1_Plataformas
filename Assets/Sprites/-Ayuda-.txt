@@ -1,0 +1,9 @@
+Los Euros son las monedas
+
+El escudo del atleti es el power up de doble salto
+
+- Faltan algunos props y diferentes partes del escenario
+- Falta todo el fondo
+- El Sprite de torrente no me convence, puede que lo retoque un poco
+
+
