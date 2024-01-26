@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 131572936}
   - component: {fileID: 131572935}
   - component: {fileID: 131572934}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -539,6 +539,7 @@ GameObject:
   - component: {fileID: 1356616212}
   - component: {fileID: 1356616211}
   - component: {fileID: 1356616214}
+  - component: {fileID: 1356616215}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -713,7 +714,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc93318ec5ef9814bad76cd79aa48cb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _maxJumps: 2
   _jumpForce: 5
+  _jumpsLeft: 0
+--- !u!114 &1356616215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356616206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0d654fdd75bf4489a44c6a44a4e88b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _whatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
+  _groundChecker: {fileID: 2050858722}
+  _isGrounded: 0
+  _checkRadius: 0.15
 --- !u!1 &1386720193
 GameObject:
   m_ObjectHideFlags: 0
@@ -725,7 +746,7 @@ GameObject:
   - component: {fileID: 1386720196}
   - component: {fileID: 1386720195}
   - component: {fileID: 1386720197}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -855,7 +876,7 @@ GameObject:
   - component: {fileID: 1655796013}
   - component: {fileID: 1655796012}
   - component: {fileID: 1655796011}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -985,7 +1006,7 @@ GameObject:
   - component: {fileID: 1831481206}
   - component: {fileID: 1831481205}
   - component: {fileID: 1831481204}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1148,7 +1169,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2050858722}
-  - component: {fileID: 2050858723}
   m_Layer: 0
   m_Name: GroundCheck
   m_TagString: Untagged
@@ -1165,47 +1185,12 @@ Transform:
   m_GameObject: {fileID: 2050858721}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0014, y: -0.0648, z: 0}
+  m_LocalPosition: {x: -0.0014, y: -0.0679, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1356616209}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &2050858723
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2050858721}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.0006833369, y: 0.00088728004}
-  serializedVersion: 2
-  m_Radius: 0.009903471
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
