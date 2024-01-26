@@ -10,5 +10,6 @@ public class GravityChecker : MonoBehaviour
     {
             _rb = collision.GetComponent<Rigidbody2D>();
             _rb.gravityScale *= -1;
+            collision.transform.localScale *= new Vector2 (1, -1);
     }
 }
