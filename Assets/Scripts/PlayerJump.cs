@@ -25,7 +25,7 @@ public class PlayerJump : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _jumpsLeft = _collisionChecker.IsGrounded ? _maxJumps : Mathf.Min(_jumpsLeft, 1);
+        _jumpsLeft = _collisionChecker.IsGrounded || _collisionChecker.IsOnCeiling ? _maxJumps : Mathf.Min(_jumpsLeft, 1);
     }
 
     // Update is called once per frame
@@ -35,7 +35,7 @@ public class PlayerJump : MonoBehaviour
         {
             _jumpsLeft -= 1;
             _rb.velocity = Vector2.up * _rb.velocity.x;
-            _rb.AddForce(Vector2.up * _jumpForce, ForceMode2D.Impulse);
+            _rb.AddForce(Vector2.up * _jumpForce * _rb.gravityScale, ForceMode2D.Impulse);
         }
     }
 }
