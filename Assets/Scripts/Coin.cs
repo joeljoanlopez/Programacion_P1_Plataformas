@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-    private CoinCounting _coinCounting;
+    [SerializeField] private CoinCounting _coinCounting;
     public int _value;
 
     private void Start()
     {
-       _coinCounting = GetComponent<CoinCounting>();
     }
 
     //colision de jugador con moneda y suma del valor
