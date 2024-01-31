@@ -15,6 +15,9 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         Vector2 direction = Vector2.right * _input._movementHorizontal * Time.deltaTime * _speed;
+
+        transform.localScale = new Vector2(transform.localScale.x * _input._movementHorizontal / Mathf.Abs(_input._movementHorizontal), transform.localScale.y);
+
         transform.Translate(direction);
     }
 }
