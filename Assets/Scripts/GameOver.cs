@@ -7,6 +7,7 @@ public class GameOver : MonoBehaviour
 {
     public bool _isDead;
     private Rigidbody2D _rb;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         _rb = collision.GetComponent<Rigidbody2D>();
@@ -15,5 +16,4 @@ public class GameOver : MonoBehaviour
             SceneManager.LoadScene("GameOver");
         }
     }
-
 }
