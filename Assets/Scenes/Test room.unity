@@ -899,6 +899,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1651976605401600624, guid: 82225302337de6540ab9758cf2ddf9e9, type: 3}
+      propertyPath: _coinCounting
+      value: 
+      objectReference: {fileID: 1133878338}
     - target: {fileID: 7412206199969861538, guid: 82225302337de6540ab9758cf2ddf9e9, type: 3}
       propertyPath: m_Name
       value: Moneda4Perras (1)
@@ -2577,6 +2581,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1651976605401600624, guid: 82225302337de6540ab9758cf2ddf9e9, type: 3}
+      propertyPath: _coinCounting
+      value: 
+      objectReference: {fileID: 1133878338}
     - target: {fileID: 7412206199969861538, guid: 82225302337de6540ab9758cf2ddf9e9, type: 3}
       propertyPath: m_Name
       value: Moneda4Perras
@@ -2885,6 +2893,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1651976605401600624, guid: 82225302337de6540ab9758cf2ddf9e9, type: 3}
+      propertyPath: _coinCounting
+      value: 
+      objectReference: {fileID: 1133878338}
     - target: {fileID: 7412206199969861538, guid: 82225302337de6540ab9758cf2ddf9e9, type: 3}
       propertyPath: m_Name
       value: Moneda4Perras
@@ -2947,6 +2959,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1651976605401600624, guid: 99b33092d683f6e44832b85cf3fd2436, type: 3}
+      propertyPath: _coinCounting
+      value: 
+      objectReference: {fileID: 1133878338}
     - target: {fileID: 7412206199969861538, guid: 99b33092d683f6e44832b85cf3fd2436, type: 3}
       propertyPath: m_Name
       value: Moneda8Perras (2)
@@ -3543,6 +3559,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1651976605401600624, guid: 82225302337de6540ab9758cf2ddf9e9, type: 3}
+      propertyPath: _coinCounting
+      value: 
+      objectReference: {fileID: 1133878338}
     - target: {fileID: 7412206199969861538, guid: 82225302337de6540ab9758cf2ddf9e9, type: 3}
       propertyPath: m_Name
       value: Moneda4Perras (2)
@@ -4143,6 +4163,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1651976605401600624, guid: 99b33092d683f6e44832b85cf3fd2436, type: 3}
+      propertyPath: _coinCounting
+      value: 
+      objectReference: {fileID: 1133878338}
     - target: {fileID: 7412206199969861538, guid: 99b33092d683f6e44832b85cf3fd2436, type: 3}
       propertyPath: m_Name
       value: Moneda8Perras
@@ -5199,6 +5223,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1651976605401600624, guid: 82225302337de6540ab9758cf2ddf9e9, type: 3}
+      propertyPath: _coinCounting
+      value: 
+      objectReference: {fileID: 1133878338}
     - target: {fileID: 7412206199969861538, guid: 82225302337de6540ab9758cf2ddf9e9, type: 3}
       propertyPath: m_Name
       value: Moneda4Perras (3)
@@ -5261,6 +5289,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1651976605401600624, guid: 99b33092d683f6e44832b85cf3fd2436, type: 3}
+      propertyPath: _coinCounting
+      value: 
+      objectReference: {fileID: 1133878338}
     - target: {fileID: 7412206199969861538, guid: 99b33092d683f6e44832b85cf3fd2436, type: 3}
       propertyPath: m_Name
       value: Moneda8Perras (1)
@@ -6201,6 +6233,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1651976605401600624, guid: 99b33092d683f6e44832b85cf3fd2436, type: 3}
+      propertyPath: _coinCounting
+      value: 
+      objectReference: {fileID: 1133878338}
     - target: {fileID: 7412206199969861538, guid: 99b33092d683f6e44832b85cf3fd2436, type: 3}
       propertyPath: m_Name
       value: Moneda8Perras
@@ -7255,6 +7291,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1651976605401600624, guid: 82225302337de6540ab9758cf2ddf9e9, type: 3}
+      propertyPath: _coinCounting
+      value: 
+      objectReference: {fileID: 1133878338}
     - target: {fileID: 7412206199969861538, guid: 82225302337de6540ab9758cf2ddf9e9, type: 3}
       propertyPath: m_Name
       value: Moneda4perras
@@ -7686,6 +7726,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1651976605401600624, guid: 82225302337de6540ab9758cf2ddf9e9, type: 3}
+      propertyPath: _coinCounting
+      value: 
+      objectReference: {fileID: 1133878338}
     - target: {fileID: 7412206199969861538, guid: 82225302337de6540ab9758cf2ddf9e9, type: 3}
       propertyPath: m_Name
       value: Moneda4Perras
@@ -7748,6 +7792,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1651976605401600624, guid: 82225302337de6540ab9758cf2ddf9e9, type: 3}
+      propertyPath: _coinCounting
+      value: 
+      objectReference: {fileID: 1133878338}
     - target: {fileID: 7412206199969861538, guid: 82225302337de6540ab9758cf2ddf9e9, type: 3}
       propertyPath: m_Name
       value: Moneda4Perras
