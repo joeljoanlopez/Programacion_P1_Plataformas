@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerJump : MonoBehaviour
@@ -11,8 +9,10 @@ public class PlayerJump : MonoBehaviour
 
     [SerializeField]
     private int _maxJumps = 2;
+
     [SerializeField]
     private float _jumpForce = 1.0f;
+
     [SerializeField]
     private int _jumpsLeft = 0;
 
