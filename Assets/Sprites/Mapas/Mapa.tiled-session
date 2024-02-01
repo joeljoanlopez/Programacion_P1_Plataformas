@@ -3,10 +3,22 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "",
+    "activeFile": "Plataformas.tmx",
     "expandedProjectPaths": [
     ],
     "fileStates": {
+        "Plataformas.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1574,
+                "y": 649.9999999999999
+            }
+        },
+        "Plataformas.tmx#plataformas": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        }
     },
     "last.imagePath": "C:/Users/Joloharo/Documents/UnityProjects/Programacion_P1_Plataformas/Assets/Sprites/Personajes Props y objetos/SpriteSheet Capa1",
     "map.height": 50,
@@ -15,9 +27,11 @@
     "map.tileWidth": 16,
     "map.width": 150,
     "openFiles": [
+        "Plataformas.tmx"
     ],
     "project": "Mapa.tiled-project",
     "recentFiles": [
+        "Plataformas.tmx"
     ],
     "tileset.embedInMap": true,
     "tileset.tileSize": {
