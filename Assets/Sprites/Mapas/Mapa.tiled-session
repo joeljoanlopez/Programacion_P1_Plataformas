@@ -8,15 +8,15 @@
     ],
     "fileStates": {
         "Plataformas.tmx": {
-            "scale": 0.75,
+            "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1574,
-                "y": 649.9999999999999
+                "x": 307.5,
+                "y": 401.5
             }
         },
         "Plataformas.tmx#plataformas": {
-            "scaleInDock": 3,
+            "scaleInDock": 5.5,
             "scaleInEditor": 1
         }
     },
