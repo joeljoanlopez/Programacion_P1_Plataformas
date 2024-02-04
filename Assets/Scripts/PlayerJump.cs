@@ -33,8 +33,11 @@ public class PlayerJump : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        _maxJumps = _hasPowerUp ? 2 : 1;
-
+        _maxJumps = 2;
+        if (_hasPowerUp)
+        {
+            _jumpForce = 6.0f;
+        }
         if (_jumpsLeft >= 1 && _input._movementVertical)
         {
             _jumpsLeft -= 1;
