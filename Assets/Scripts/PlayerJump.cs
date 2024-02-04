@@ -15,6 +15,7 @@ public class PlayerJump : MonoBehaviour
 
     [SerializeField]
     private int _jumpsLeft = 0;
+    public AudioSource _jumpSound;
 
     // Start is called before the first frame update
     private void Start()
@@ -40,6 +41,7 @@ public class PlayerJump : MonoBehaviour
         }
         if (_jumpsLeft >= 1 && _input._movementVertical)
         {
+            _jumpSound.Play();
             _jumpsLeft -= 1;
             _rb.velocity = Vector2.up * _rb.velocity.x;
             _rb.AddForce(Vector2.up * _jumpForce * _rb.gravityScale, ForceMode2D.Impulse);
