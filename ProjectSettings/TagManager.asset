@@ -41,6 +41,12 @@ TagManager:
   - name: Fondo
     uniqueID: 2965900233
     locked: 0
+  - name: Detalles 2
+    uniqueID: 1538573959
+    locked: 0
+  - name: Objetos y detalles
+    uniqueID: 3787411611
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
