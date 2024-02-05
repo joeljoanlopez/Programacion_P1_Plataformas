@@ -14,7 +14,7 @@ TagManager:
   - Ground
   - GravityChanger
   - PowerUp
-  - 
+  - Fondo
   - 
   - 
   - 
@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Fondo
+    uniqueID: 2965900233
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
