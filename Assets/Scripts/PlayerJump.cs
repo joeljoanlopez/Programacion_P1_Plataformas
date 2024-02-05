@@ -15,6 +15,7 @@ public class PlayerJump : MonoBehaviour
 
     [SerializeField]
     private int _jumpsLeft = 0;
+
     public AudioSource _jumpSound;
 
     // Start is called before the first frame update

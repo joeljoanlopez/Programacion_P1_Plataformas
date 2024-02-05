@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CollisionChecker : MonoBehaviour
@@ -9,10 +7,11 @@ public class CollisionChecker : MonoBehaviour
     [SerializeField] private Transform _ceilingChecker;
 
     [SerializeField] private bool _isGrounded;
-    public bool IsGrounded { get { return _isGrounded; } }
+    public bool IsGrounded
+    { get { return _isGrounded; } }
     [SerializeField] private float _checkRadius = 0.10f;
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         CheckGrounded();
     }

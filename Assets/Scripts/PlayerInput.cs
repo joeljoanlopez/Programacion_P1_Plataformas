@@ -5,10 +5,8 @@ public class PlayerInput : MonoBehaviour
     public float _movementHorizontal { get; private set; }
     public bool _movementVertical { get; private set; }
 
-    private CollisionChecker _collisionChecker;
-
     public Animator _animator;
-    private bool hasJumped = false; // New variable to track jump state
+    private bool _hasJumped = false; // New variable to track jump state
 
     // Update is called once per frame
     private void Update()
@@ -16,11 +14,11 @@ public class PlayerInput : MonoBehaviour
         _movementHorizontal = Input.GetAxis("Horizontal");
         _movementVertical = Input.GetButtonDown("Jump");
 
-        if ((_movementVertical || Input.GetKey("w") || Input.GetKey(KeyCode.UpArrow)) && !hasJumped)
+        if ((_movementVertical || Input.GetKey("w") || Input.GetKey(KeyCode.UpArrow)) && !_hasJumped)
         {
             _animator.SetBool("Jumping", true);
             print("hello");
-            hasJumped = true; // Set the flag to true to indicate that the jump animation has played
+            _hasJumped = true; // Set the flag to true to indicate that the jump animation has played
         }
         else if (Input.GetKey("a") || Input.GetKey("d") || Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
         {
@@ -34,7 +32,7 @@ public class PlayerInput : MonoBehaviour
             // Reset the jump flag when no longer pressing the jump key
             if (!Input.GetKey("w") && !Input.GetKey(KeyCode.UpArrow))
             {
-                hasJumped = false;
+                _hasJumped = false;
             }
         }
     }

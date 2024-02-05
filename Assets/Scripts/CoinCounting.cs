@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CoinCounting : MonoBehaviour
@@ -13,7 +11,7 @@ public class CoinCounting : MonoBehaviour
         GUI.Label(new Rect(10, 10, 200, 20), _coinText);
     }
 
-    void Update()
+    private void Update()
     {
         _coinText = ("Coins: ") + _currentCoins.ToString();
     }
