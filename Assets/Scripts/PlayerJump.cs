@@ -28,7 +28,7 @@ public class PlayerJump : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _jumpsLeft = _collisionChecker.IsGrounded ? _maxJumps : _maxJumps - 1;
+        _jumpsLeft = _collisionChecker.IsGrounded ? _maxJumps : Mathf.Min(_maxJumps - 1, _jumpsLeft);
     }
 
     // Update is called once per frame
@@ -47,7 +47,7 @@ public class PlayerJump : MonoBehaviour
         }
     }
 
-    public void GetDoubleJump()
+    public void GetPowerUp()
     {
         _hasPowerUp = true;
     }

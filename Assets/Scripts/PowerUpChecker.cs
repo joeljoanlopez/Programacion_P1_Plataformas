@@ -12,7 +12,7 @@ public class PowerUpChecker : MonoBehaviour
         _playerJump = collision.GetComponent<PlayerJump>();
         if (_playerJump != null)
         {
-            _playerJump.GetDoubleJump();
+            _playerJump.GetPowerUp();
         }
     }
 }
