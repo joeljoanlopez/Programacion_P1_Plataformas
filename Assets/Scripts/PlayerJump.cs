@@ -34,7 +34,6 @@ public class PlayerJump : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        _maxJumps = 2;
         if (_hasPowerUp)
         {
             _jumpForce = 6.0f;
